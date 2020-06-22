@@ -1,8 +1,8 @@
 import time
-from user_simulator import user_simulator
-from real_user import real_user
-from DQN_agent import DQNAgent
-from dialog_manager import dialog_manager
+from user.user_simulator import user_simulator
+from user.real_user import real_user
+from agent.DQN_agent import DQNAgent
+from dialog_system.dialog_manager import dialog_manager
 
 class responder():
 
