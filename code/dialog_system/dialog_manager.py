@@ -1,7 +1,7 @@
-from state_tracker import state_tracker
+from .state_tracker import state_tracker
 import dialog_config
-from natural_language_generator_rule import NL_rule_generator as rule_NLG
-from natural_language_understanding import NL_understanding as NLU
+from ..natural_language_generator.natural_language_generator_rule import NL_rule_generator as rule_NLG
+from ..natural_language_understanding.natural_language_understanding import NL_understanding as NLU
 
 
 class dialog_manager:
